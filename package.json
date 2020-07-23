@@ -10,6 +10,7 @@
   "dependencies": {
     "bootstrap-vue": "^2.15.0",
     "core-js": "^3.6.5",
+    "typeface-ubuntu": "0.0.65",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0"
   },
@@ -21,6 +22,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "tailwindcss": "^1.5.2",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

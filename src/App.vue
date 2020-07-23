@@ -1,13 +1,9 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div id="app" class="content-wrapper flex flex-col min-h-screen bg-white">
+    <Nav/>
+    <router-view class="flex-1" />
   </div>
 </template>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -30,3 +26,13 @@
   color: #42b983;
 }
 </style>
+
+<script>
+import Nav from '@/components/Nav'
+
+export default {
+  components: {
+    Nav
+  }
+}
+</script>
