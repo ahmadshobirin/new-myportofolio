@@ -9,7 +9,6 @@
         <img src="@/assets/undraw_man_coding.svg" alt="" width="285">
       </div>
     </div>
-  </div>
 </template>
 
 <script>
