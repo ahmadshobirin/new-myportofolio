@@ -4,4 +4,6 @@
 
 @tailwind utilities;
 
-
+.router-link-exact-active{
+    @apply border-red-400;
+}
