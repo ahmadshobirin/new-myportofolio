@@ -1,22 +1,22 @@
 <template>
-  <header class="border-t-14 border-green-700">
-    <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
-      <div>
-        <a href="/" class="active--exact active"></a>
-      </div>
-      <ul
-        class="uppercase tracking-wide font-bold w-full block flex-grow lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0 hidden"
-      >
-        <li class="mr-8 mb-6 lg:mb-0">
-          <a href="/#about" class="text-copy-primary hover:text-gray-600">Home</a>
-        </li>
-        <li class="mr-8 mb-6 lg:mb-0">
-          <a href="/#about" class="text-copy-primary hover:text-gray-600">Tentang</a>
-        </li>
-        <li class="mr-8 mb-6 lg:mb-0">
-          <a href="/#contact" class="text-copy-primary hover:text-gray-600">Kontak</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+  <nav class="bg-white px-8 pt-2">
+    <div class="-mb-px flex justify-center">
+      <a
+        class="no-underline text-teal-dark border-b-2 border-red-400 uppercase tracking-wide font-bold text-xs py-3 mr-8"
+        href="#"
+      >Tentang Saya</a>
+      <a
+        class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
+        href="#"
+      >Portofolio</a>
+      <a
+        class="no-underline text-grey-dark border-b-2e border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
+        href="#"
+      >Karya</a>
+      <a
+        class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3"
+        href="#"
+      >Kontak</a>
+    </div>
+  </nav>
 </template>
