@@ -1,5 +1,5 @@
 <template>
-  <div class="flex px-10 mt-10">
+  <div class="flex px-10 mt-10 bg-header">
     <div class="hero container-inner mx-auto flex flex-col items-center sm:flex-row justify-between px-10 lg:w-4/6">
       <div class="text-4xl font-bold sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight tracking-tighter">Ahmad Shobirin</div>
