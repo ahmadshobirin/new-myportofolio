@@ -1,14 +1,21 @@
 <template>
-  <div class="flex px-10 mt-10">
-    <div
-      class="hero container-inner items-center mx-auto flex flex-col sm:flex-row justify-center px-10 lg:w-4/6"
-    >
-      <div class="text-4xl font-bold sm:w-3/5 text-center sm:text-left">
-        <div class="leading-tight tracking-tighter">Ahmad Shobirin</div>
-        <div class="text-red-400 text-2xl">Web Developer</div>
-      </div>
-      <div class="mt-8 sm:mt-0">
-        <img src="@/assets/undraw_man_coding.svg" alt width="285" />
+  <div class="flex px-48 mt-10">
+    <div class="flex items-center flex-col lg:flex-row px-4 py-6">
+      <img
+        src="@/assets/undraw_man_coding.svg"
+        alt="avatar"
+        class="w-64 h-64 rounded-full mb-8 lg:mb-0"
+      />
+      <div class="lg:ml-16 leading-loose mb-6">
+        <h2 class="text-3xl text-bold">Ahmad Shobirin</h2>
+        <div class="uppercase font-light text-xs text-red-400 tracking-widest mb-4">Web Developer</div>
+        <p class="mb-2">
+        Biasa dipanggil Shob, semenjak SMK sudah mengenal dan belajar Web Development. Bekerja di <a href="https://qqltech.com/" class="text-blue-400">Quantum Leap International Surabaya </a> terhitung sejak tahun 2017. Sudah mengunakan Framework Laravel sejak versi 5.2 dan menikmati kemudahannya.
+        </p>
+        <p>
+        Meneruskan pendidikan Teknik Informatika di <a href="https://untag-sby.ac.id/" class="text-blue-400">Universitas 17 Agustus Surabaya. </a>
+        Untuk mengisi waktu luang saya hobi berselencar di dunia literasi, pun sesekali menuangkan pemikiran saya dalam bentuk tulisan.
+        </p>
       </div>
     </div>
   </div>

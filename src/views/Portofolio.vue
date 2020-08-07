@@ -1,6 +1,6 @@
 <template>
     <div class="mt-10">
-        <p>Ini Halaman Portofolio</p>
+        <p class="text-center">Ini Halaman Portofolio</p>
     </div>
 </template>
 
