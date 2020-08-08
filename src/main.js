@@ -1,11 +1,13 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
 import App from './App.vue'
+import VueRouter from 'vue-router'
 import router from './router'
-import '@/assets/css/style.css'
 import store from './store'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+import '@/assets/css/style.css'
 
-Vue.use(VueRouter)
+Vue.use(VueRouter, VueAxios, axios)
 
 Vue.config.productionTip = false
 
