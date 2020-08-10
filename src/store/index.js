@@ -5,6 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    //STATE USERS
     users: [
       {
         name: "Ahmad Shobirin",
@@ -21,12 +22,11 @@ export default new Vuex.Store({
         description: "Seonggok Front End",
         image: "https://avatars3.githubusercontent.com/u/49638000?s=400&u=2d7e7fea7c09d26c10557c2a5be41f71f0b6b03f&v=4"
       }
-    ]
+    ],
   },
   mutations: {
-    MUT_NEW_USER(state, nameInput, descriptionInput){
-      console.log(descriptionInput);
-
+    //MUTATIONS USERS
+    MUT_NEW_USER(state, nameInput){
       state.users.push({
         name: nameInput,
         image: "https://source.unsplash.com/random",
@@ -35,6 +35,8 @@ export default new Vuex.Store({
     }
   },
   actions: {
+
+    //MODULE USERS
     actionAddUser({commit}, name){
       commit('MUT_NEW_USER', name);
     }
