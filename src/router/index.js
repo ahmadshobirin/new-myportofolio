@@ -23,6 +23,11 @@ Vue.use(VueRouter)
     path: '/kontak',
     name: 'Kontak',
     component: () => import('../views/Contact.vue')
+  },
+  {
+    path: '/vuex',
+    name: 'vuex',
+    component: () => import('../components/BelajarVuex.vue')
   }
 ]
 
