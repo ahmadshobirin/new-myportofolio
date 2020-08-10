@@ -24,8 +24,20 @@ export default new Vuex.Store({
     ]
   },
   mutations: {
+    MUT_NEW_USER(state, nameInput, descriptionInput){
+      console.log(descriptionInput);
+
+      state.users.push({
+        name: nameInput,
+        image: "https://source.unsplash.com/random",
+        description: "Others"
+      })
+    }
   },
   actions: {
+    actionAddUser({commit}, name){
+      commit('MUT_NEW_USER', name);
+    }
   },
   modules: {
   }
