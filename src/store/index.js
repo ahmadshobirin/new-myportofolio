@@ -54,8 +54,8 @@ export default new Vuex.Store({
       console.log("RUN action");
       axios.get('http://127.0.0.1:8000/api/creations')
       .then((response) => {
-        console.log(response.data);
-        commit('SET_CREATIONS', response.data);
+        // console.log(response.data);
+        commit('SET_CREATIONS', response.data.data);
       })
     }
   },
