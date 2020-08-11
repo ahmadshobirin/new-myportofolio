@@ -13,6 +13,17 @@
       </div>
 
       <div class="mt-2 mb-2">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="description">Deskripsi</label>
+        <textarea
+          class="shadow appearance-none border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          id="description"
+          type="text"
+          placeholder="Others"
+          v-model="description"
+        />
+      </div>
+
+      <div class="mt-2 mb-2">
         <button class="bg-green-800 text-white px-2 py-1 rounded" @click="addUsers()">Tambah</button>
       </div>
     </div>
@@ -41,7 +52,15 @@ export default {
   },
   methods: {
     addUsers() {
-      this.$store.dispatch("actionAddUser", this.name)
+      var data = {
+        nameInput: this.name,
+        descriptionInput: this.description,
+      };
+
+      this.name = "";
+      this.description = "";
+
+      this.$store.dispatch("actionAddUser", data)
     },
   },
   computed: {

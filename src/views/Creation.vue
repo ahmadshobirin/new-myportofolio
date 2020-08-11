@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="mt-10">
-        <h3 class="font-bold text-3xl text-center title-menu">Karya</h3>
-        <!-- <div class="border-b-2 border-red-400 mx-64 mt-2"></div> -->
+      <h3 class="font-bold text-3xl text-center title-menu">Karya</h3>
+      <!-- <div class="border-b-2 border-red-400 mx-64 mt-2"></div> -->
     </div>
     <div class="flex items-center justify-center mt-10">
       <div class="shadow-lg w-64 mx-4">
@@ -57,5 +57,13 @@
 <script>
 export default {
   name: "Creation",
+  computed: {
+    creations() {
+      return this.$store.state.creations;
+    },
+  },
+  mounted() {
+    this.$store.dispatch("getCreations");
+  },
 };
 </script>
