@@ -52,7 +52,7 @@ export default new Vuex.Store({
 
     getCreations({commit}){
       console.log("RUN action");
-      axios.get('http://127.0.0.1:8000/api/creations')
+      axios.get('http://52.221.246.47/deweloper/api/creations')
       .then((response) => {
         // console.log(response.data);
         commit('SET_CREATIONS', response.data.data);
