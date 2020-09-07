@@ -6,6 +6,11 @@
         alt="avatar"
         class="w-64 h-64 rounded-full mb-8 lg:mb-0"
       />
+      <div>
+        <a href=""><i class="neu-br-telegram" style="font-size: 24px;"></i></a>
+        <a href=""><i class="neu-br-github" style="font-size: 24px;"></i></a>
+        <a href=""><i class="neu-br-twitter" style="font-size: 24px;"></i></a>
+      </div>
       <div class="lg:ml-16 leading-loose mb-6">
         <h2 class="text-3xl text-bold">Ahmad Shobirin</h2>
         <div class="uppercase font-light text-xs text-red-400 tracking-widest mb-4">Web Developer</div>

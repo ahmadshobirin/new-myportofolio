@@ -14,13 +14,13 @@
         to="/karya"
       >Karya</router-link>
 
-     <router-link class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
+     <!-- <router-link class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
         to="/kontak"
       >Kontak</router-link>
 
       <router-link class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
         to="/vuex"
-      >Vuex</router-link>
+      >Vuex</router-link> -->
 
     </div>
   </nav>
