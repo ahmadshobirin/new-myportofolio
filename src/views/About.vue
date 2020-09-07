@@ -15,7 +15,7 @@
         <h2 class="text-3xl text-bold">Ahmad Shobirin</h2>
         <div class="uppercase font-light text-xs text-red-400 tracking-widest mb-4">Web Developer</div>
         <p class="mb-2">
-        Biasa dipanggil Shob, semenjak SMK sudah mengenal dan belajar Web Development. Bekerja di <a href="https://qqltech.com/" class="text-blue-400">Quantum Leap International Surabaya </a> terhitung sejak tahun 2017. Sudah mengunakan Framework Laravel sejak versi 5.2 dan menikmati kemudahannya.
+        Biasa dipanggil Shob, semenjak SMK sudah mengenal dan belajar Web Development. Sekarang bekerja di <a href="http://twiscode.com/" class="text-blue-400">Twiscode</a>.
         </p>
         <p>
         Meneruskan pendidikan Teknik Informatika di <a href="https://untag-sby.ac.id/" class="text-blue-400">Universitas 17 Agustus Surabaya. </a>
