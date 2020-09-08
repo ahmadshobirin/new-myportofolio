@@ -1,24 +1,5 @@
-# learn-vue
+# Hi, Shob in here
 
-## Project setup
-```
-npm install
-```
+## What is this project for?
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Describe me and publish my poem, creation, portofolio and anothers

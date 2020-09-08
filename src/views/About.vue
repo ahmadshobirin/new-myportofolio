@@ -8,9 +8,9 @@
           class="w-64 h-64 rounded-full mb-8 lg:mb-0"
         />
         <div>
-          <a href=""><i class="neu-br-telegram" style="font-size: 24px;"></i></a>
-          <a href=""><i class="neu-br-github" style="font-size: 24px;"></i></a>
-          <a href=""><i class="neu-br-twitter" style="font-size: 24px;"></i></a>
+          <a href=""><i class="neu-br-telegram" style="font-size: 32px;"></i></a>
+          <a href=""><i class="neu-br-github" style="font-size: 32px;"></i></a>
+          <a href=""><i class="neu-br-twitter" style="font-size: 32px;"></i></a>
         </div>
       </div>
       <div class="lg:ml-16 w-2/3 leading-loose mb-6">
