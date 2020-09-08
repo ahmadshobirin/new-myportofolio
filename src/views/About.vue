@@ -1,17 +1,19 @@
 <template>
   <div class="flex px-48 mt-10">
     <div class="flex items-center flex-col lg:flex-row px-4 py-6">
-      <img
-        src="@/assets/undraw_man_coding.svg"
-        alt="avatar"
-        class="w-64 h-64 rounded-full mb-8 lg:mb-0"
-      />
-      <div>
-        <a href=""><i class="neu-br-telegram" style="font-size: 24px;"></i></a>
-        <a href=""><i class="neu-br-github" style="font-size: 24px;"></i></a>
-        <a href=""><i class="neu-br-twitter" style="font-size: 24px;"></i></a>
+      <div class="w-1/3 flex flex-col justify-center items-center">
+        <img
+          src="@/assets/undraw_man_coding.svg"
+          alt="avatar"
+          class="w-64 h-64 rounded-full mb-8 lg:mb-0"
+        />
+        <div>
+          <a href=""><i class="neu-br-telegram" style="font-size: 24px;"></i></a>
+          <a href=""><i class="neu-br-github" style="font-size: 24px;"></i></a>
+          <a href=""><i class="neu-br-twitter" style="font-size: 24px;"></i></a>
+        </div>
       </div>
-      <div class="lg:ml-16 leading-loose mb-6">
+      <div class="lg:ml-16 w-2/3 leading-loose mb-6">
         <h2 class="text-3xl text-bold">Ahmad Shobirin</h2>
         <div class="uppercase font-light text-xs text-red-400 tracking-widest mb-4">Web Developer</div>
         <p class="mb-2">
