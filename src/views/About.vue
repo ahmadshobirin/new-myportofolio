@@ -3,11 +3,11 @@
     <div class="flex items-center flex-col lg:flex-row px-4 py-6">
       <div class="w-1/3 flex flex-col justify-center items-center">
         <img
-          src="@/assets/undraw_man_coding.svg"
+          src="@/assets/me.jpg"
           alt="avatar"
           class="w-64 h-64 rounded-full mb-8 lg:mb-0"
         />
-        <div>
+        <div class="pt-2">
           <a href=""><i class="neu-br-telegram" style="font-size: 32px;"></i></a>
           <a href=""><i class="neu-br-github" style="font-size: 32px;"></i></a>
           <a href=""><i class="neu-br-twitter" style="font-size: 32px;"></i></a>
