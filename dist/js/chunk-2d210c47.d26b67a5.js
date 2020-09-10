@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d210c47"],{b8fa:function(t,n,e){"use strict";e.r(n);var a=function(){var t=this,n=t.$createElement;t._self._c;return t._m(0)},c=[function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("div",{staticClass:"mt-10"},[e("p",{staticClass:"text-center"},[t._v("Ini Halaman Kontak")])])}],s={name:"Contact"},l=s,r=e("2877"),i=Object(r["a"])(l,a,c,!1,null,null,null);n["default"]=i.exports}}]);
+//# sourceMappingURL=chunk-2d210c47.d26b67a5.js.map
